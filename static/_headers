@@ -1,0 +1,5 @@
+# Custom response headers for static assets (Cloudflare Workers Static Assets).
+# Replaces the .wbn handling in the old Deno server.ts.
+/*.wbn
+  Content-Type: application/webbundle
+  X-Content-Type-Options: nosniff
